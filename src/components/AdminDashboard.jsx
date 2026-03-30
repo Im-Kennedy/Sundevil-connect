@@ -25,10 +25,8 @@ function AdminDashboard() {
     if (!currentUser) {//loading
         return <div>Loading...</div>;
     }
-
     return (
         <div className="dashboard-container">
-
             {/*navidation bar*/}
             <div className="navbar">
                 <div className="navbar-left">
@@ -41,12 +39,10 @@ function AdminDashboard() {
                     </button>
                 </div>
             </div>
-
             {/*main body section*/}
             <div className="dashboard-content">
                 <h1>Admin Dashboard</h1>
                 <p>Role: {currentUser.role}</p>
-
                 <div style={{marginTop: '40px', padding: '20px', background: 'white', borderRadius: '8px'}}>
                     <h2>Main section</h2>
                     <p>admin roles</p>

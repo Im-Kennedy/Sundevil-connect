@@ -25,7 +25,6 @@ function ClubLeaderDashboard() {
     }
     return (
         <div className="dashboard-container">
-
             {/*navigation bar up on the top*/}
             <div className="navbar">
                 <div className="navbar-left">
@@ -38,7 +37,6 @@ function ClubLeaderDashboard() {
                     </button>
                 </div>
             </div>
-
             {/*body section*/}
             <div className="dashboard-content">
                 <h1>Club Leader Dashboard</h1>

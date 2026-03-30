@@ -46,13 +46,6 @@ export const clubs = [
         members: 78
     },
     {
-        clubId: "4",
-        name: "Walking Club",
-        description: "Explore new trails and stay healthy walking with us.",
-        category: "sports",
-        members: 28
-    },
-    {
         clubId: "5",
         name: "Coding Club",
         description: "Students who want to learn coding or find a job in coding for when they graduate.",
