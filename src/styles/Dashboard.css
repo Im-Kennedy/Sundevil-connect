@@ -1,0 +1,125 @@
+.dashboard-container {
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+.navbar {
+    background-color: #009688;
+    color: white;
+    padding: 16px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 22px;
+}
+.navbar-right {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.navbar-right span {
+    font-size: 14px;
+}
+.logout-btn {
+    background-color: #FDD835;
+    color: #333;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.logout-btn:hover {
+    background-color: #FBC02D;
+}
+
+.dashboard-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 35px 18px;
+}
+.dashboard-content h1 {
+    color: #009688;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+.dashboard-content p {
+    color: #666;
+    margin-bottom: 15px;
+}
+.search-bar {
+    margin: 25px 0;
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 480px;
+    padding: 11px 14px;
+    font-size: 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+.search-bar input:focus {
+    outline: none;
+    border-color: #009688;
+}
+.clubs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 22px;
+}
+
+.clubs-grid > div {
+    background: white;
+    padding: 18px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    width: calc(33.333% - 12px);
+    min-width: 280px;
+    cursor: pointer;
+}
+.clubs-grid > div:hover {
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    background-color: #fafafa;
+}
+.clubs-grid h3 {
+    color: #009688;
+    margin: 0 0 8px 0;
+    font-size: 20px;
+}
+.club-category {
+    color: #FDD835;
+    background-color: #333;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    margin: 0 0 12px 0;
+}
+
+.club-description {
+    color: #555;
+    margin: 12px 0;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.club-members {
+    color: #888;
+    font-size: 13px;
+    margin: 12px 0 0 0;
+    font-weight: 600;
+}
+.no-results {
+    text-align: center;
+    color: #999;
+    margin-top: 45px;
+    font-size: 17px;
+}
