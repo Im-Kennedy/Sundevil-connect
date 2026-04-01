@@ -20,7 +20,7 @@ function Login(){//lgoin function
                 break;//foudn user
             }
         }
-        if (foundUser) {
+        if (foundUser) {//factory pattern
             console.log("Logged in ", foundUser.name);
             localStorage.setItem('currentUser', JSON.stringify(foundUser));
             if (foundUser.role === 'student') {
