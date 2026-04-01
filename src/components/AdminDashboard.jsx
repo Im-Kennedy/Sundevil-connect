@@ -13,7 +13,7 @@ function AdminDashboard() {
             setCurrentUser(userData);
             console.log("Admin dashboard loaded for:", userData.name);
         } else {
-            // Not logged in, send back to login
+            //not logged in, send back to login
             navigate('/');
         }
     }, [navigate]);

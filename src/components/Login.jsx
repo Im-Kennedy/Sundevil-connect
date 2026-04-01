@@ -34,7 +34,7 @@ function Login(){//lgoin function
                 navigate('/admin-dashboard');
             }
         } else {
-            // Login failed
+            //login failed
             console.log("Login failed");
             setError('Try again');
         }

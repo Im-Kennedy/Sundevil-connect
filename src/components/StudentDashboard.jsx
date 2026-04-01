@@ -13,7 +13,7 @@ function StudentDashboard() {
             setCurrentUser(JSON.parse(user));
             console.log("Dashboard loaded for:", JSON.parse(user).name);
         } else {
-            // Nobody is logged in, send them back to login
+            //Nobody is logged in, send them back to login
             console.log("No user found, redirecting to login");
             navigate('/');
         }
