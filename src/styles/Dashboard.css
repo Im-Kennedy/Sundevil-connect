@@ -123,3 +123,124 @@
     margin-top: 45px;
     font-size: 17px;
 }
+/*student Dashboard additions */
+.welcome-banner {
+    background: linear-gradient(135deg, #8C1D40, #FFC627);
+    color: white;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 28px;
+}
+.welcome-banner h1 { color: white; font-size: 26px; margin: 0 0 6px 0; }
+.welcome-banner p { color: rgba(255,255,255,0.9); margin: 0; font-size: 15px; }
+
+.tab-switcher { display: flex; gap: 10px; margin-bottom: 20px; }
+.tab-btn {
+    padding: 10px 24px;
+    border: 2px solid #8C1D40;
+    background: white;
+    color: #8C1D40;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tab-btn:hover { background: #f5e9ed; }
+.tab-active { background: #8C1D40 !important; color: white !important; }
+
+.tab-subtitle { color: #555; font-size: 15px; margin-bottom: 16px; }
+
+.category-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.filter-btn {
+    padding: 7px 16px;
+    border: 2px solid #ddd;
+    background: white;
+    color: #555;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.filter-btn:hover { border-color: #FFC627; background: #fffbf0; }
+.filter-active { background: #FFC627 !important; border-color: #FFC627 !important; color: #333 !important; font-weight: bold; }
+
+.join-btn {
+    background: #8C1D40;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.join-btn:hover { background: #6e1530; }
+
+.join-status-joined { font-size: 14px; font-weight: bold; color: #4caf50; }
+.join-status-pending { font-size: 14px; font-weight: bold; color: #ff9800; }
+
+/* Club Leader styles */
+.leader-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.form-input {
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #8C1D40;
+}
+
+.member-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 14px 18px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    margin-bottom: 10px;
+}
+
+.member-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.deny-btn {
+    background: white;
+    color: #8C1D40;
+    border: 2px solid #8C1D40;
+    padding: 9px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.deny-btn:hover {
+    background: #f5e9ed;
+}
+
+.announcement-card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    margin-bottom: 14px;
+}

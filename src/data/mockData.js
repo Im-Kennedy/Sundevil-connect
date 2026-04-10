@@ -73,6 +73,15 @@ export const clubs = [
         members: 40,
         approvalStatus: "approved",
         leaderId: "mei17"
+    },
+    {
+        clubId: "7",
+        name: "Photography Club",
+        description: "Capture the world around you. All skill levels welcome!",
+        category: "social",
+        members: 0,
+        approvalStatus: "pending",
+        leaderId: ""
     }
 ];
 
@@ -162,7 +171,7 @@ export const memberships = [
         membershipId: "m1",
         userId: "cjkenn13",
         clubId: "5",
-        status: "approved"
+        status: "pending",
     },
     {
         membershipId: "m2",
