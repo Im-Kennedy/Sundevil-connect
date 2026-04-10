@@ -80,7 +80,7 @@ export const clubs = [
         description: "Capture the world around you. All skill levels welcome!",
         category: "social",
         members: 0,
-        approvalStatus: "pending",
+        approvalStatus: "approved",
         leaderId: ""
     }
 ];
@@ -175,7 +175,7 @@ export const memberships = [
     },
     {
         membershipId: "m2",
-        userId: "jsmith22",
+        userId: "tommy88",
         clubId: "3",
         status: "approved"
     },
